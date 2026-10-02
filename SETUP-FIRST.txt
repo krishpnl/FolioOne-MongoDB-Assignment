@@ -1,0 +1,15 @@
+FolioOne Final Assignment Setup
+1. Extract this folder.
+2. Open the folder in VS Code.
+3. Run: npm install
+4. Copy .env.example to .env
+5. Add your MongoDB Atlas MONGODB_URI.
+6. Add a long random SESSION_SECRET.
+7. Run: npm start
+8. Open http://localhost:5000/admin/setup
+9. Create your admin account.
+10. Login at http://localhost:5000/admin/login
+11. Optional: run `npm run seed` before or after creating the admin to add starter portfolio data. The seed only fills empty collections.
+12. Test Home, About, Resume, Services, Portfolio, Contact and Admin CRUD.
+13. Do not submit .env.
+14. For deployment, use a Node.js-compatible hosting provider and set MONGODB_URI, SESSION_SECRET and PORT as environment variables.

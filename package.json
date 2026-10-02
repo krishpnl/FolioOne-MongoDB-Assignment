@@ -1,0 +1,22 @@
+{
+  "name": "folioone-mongodb-assignment",
+  "version": "1.0.0",
+  "description": "FolioOne portfolio with Express, MongoDB Atlas and admin-managed content",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.19.0",
+    "mongoose": "^8.18.0",
+    "puppeteer": "^25.12.0"
+  }
+}
